@@ -19,10 +19,11 @@ This guide outlines the prerequisites and installation of the open-source help d
 <h2>List of Prerequisites</h2>
 
 - The first thing that you will start off doing is creating a resource group.
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Next, you will need to create a virtual machine within the newly created resource group.
+- Once you have created your virtual machine and resource groups, the next step will be to log into your newly created virtual machine using Remote Desktop Connection. Locate your virtual machines public IP address and use it to log into the Remote Desktop Connection. You will also want to enable IIS through pc settings.
+- Once you are logged into your virtual machine via Remote Desktop, you shall install all the required files for OsTicket which consist of the following files: HeidiSQL, MySQL, OsTicket, php-7.3.8, PHP Manager for IIS, rewrite and VC_redist. Install all files using standard configurations.
+- Using HeidiSQL, set up password for OsTicket.
+- Log into OsTicket using the username and password you created in SQL and you should be ready to begin using OsTicket!
 
 <h2>Installation Steps</h2>
 
