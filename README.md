@@ -80,3 +80,4 @@ STEP 6: For the last steps, you will use HeidiSQL to create a username and passw
   <img src="https://i.imgur.com/4FfZDFH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Good luck!
