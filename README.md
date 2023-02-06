@@ -11,10 +11,11 @@ This guide outlines the prerequisites and installation of the open-source help d
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- HeidiSQL
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b>
 
 <h2>List of Prerequisites</h2>
 
