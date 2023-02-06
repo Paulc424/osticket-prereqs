@@ -30,22 +30,53 @@ This guide outlines the prerequisites and installation of the open-source help d
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+STEP 1: First step is to create a resource group.
 </p>
 <br />
 
 <p>
-<img src=["https://i.imgur.com/DJmEXEB.png"](https://i.imgur.com/EFZmwZ7.png) height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EFZmwZ7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+STEP 2: The next step will be to create a virtual machine within the resource group that you just created.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NvlHDuc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+STEP 3: Next, you will be required to install all of the following files as depicted in the illustration below.
+  The files consist of: HeidiSQL, MySQL, OsTicket, php-7.3.8, PHP Manager for IIS, rewrite and VC_redist. Install all files using standard configurations.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/Y138nFI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+STEP 4: You will want to enable CGI in Windows features. Go to Control Panel> Programs> Turn windows features on or off> World Wide Web Services> Application Development Features> CGI.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/uPyjJh7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+STEP 5: Enable php-cgi through the Internet Information Services (IIS) for the OsTicket system.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9It4kT1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+STEP 6: For the last steps, you will use HeidiSQL to create a username and password for OsTicket. Afterwards, you should be all ready to log in and begin using OsTicket!
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/h0X3VGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/4FfZDFH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
